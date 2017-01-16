@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WoodenMoose.AspNetCore.Exceptions</id>
+    <version>1.0.0</version>
+    <title>WoodenMoose.AspNetCore.Exceptions</title>
+    <authors>Timothé Larìvière</authors>
+    <owners>Timothé Larìvière</owners>
+    <projectUrl>https://github.com/TimLariviere/WoodenMoose.AspNetCore.Exceptions</projectUrl>
+    <description>A small library for ASP.NET Core to allow returning HTTP codes in actions without changing the return type of the actions</description>
+    <copyright>Copyright Timothé Larivière 2017</copyright>
+    <dependencies>
+      <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="1.0.0" />
+      <dependency id="NETStandard.Library" version="1.6.1" />
+    </dependencies>
+  </metadata>
+  <files>
+  	<file src="bin\Release\netstandard1.6\WoodenMoose.AspNetCore.Exceptions.dll" target="lib\netstandard1.6" />
+  	<file src="bin\Release\netstandard1.6\WoodenMoose.AspNetCore.Exceptions.xml" target="lib\netstandard1.6" />
+  </files>
+</package>
