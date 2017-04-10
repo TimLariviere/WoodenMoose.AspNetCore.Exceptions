@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>A small library for ASP.NET Core to allow returning HTTP codes in actions without changing the return type of the actions</Description>
+    <Copyright>Copyright Timothé Larivière ©2017</Copyright>
+    <AssemblyTitle>WoodenMoose.AspNetCore.Exceptions</AssemblyTitle>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>WoodenMoose.AspNetCore.Exceptions</AssemblyName>
+    <PackageId>WoodenMoose.AspNetCore.Exceptions</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Authors>Timothé Larivière</Authors>
+    <RepositoryUrl>https://github.com/TimLariviere/WoodenMoose.AspNetCore.Exceptions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/TimLariviere/WoodenMoose.AspNetCore.Exceptions</PackageProjectUrl>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="WoodenMoose.AspNetCore.Exceptions.nuspec" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
